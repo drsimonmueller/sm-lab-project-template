@@ -1,0 +1,28 @@
+# data
+data/raw/*
+data/external/*
+data/processed/*
+!data/raw/MANIFEST.csv
+!data/**/.gitkeep
+
+# scratch and logs
+temp/*
+!temp/.gitkeep
+.nextflow*
+work/
+_targets/
+
+# environments
+renv/library/
+renv/staging/
+.venv/
+
+# binaries and editor files
+*.ai
+.Rhistory
+.RData
+.Rproj.user/
+Rplots.pdf
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
